@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>ejercicio 1</title>
+</head>
+<body>
+  <div>
+  <h1>Formulario de Datos</h1>
+  <br></br>
+  <section>
+    <form action="" method="post" name='formulario' id='formulario'>
+      <div>
+        <label for="nombre">Ingresa tu Nombre:</label>
+        <input id="nombre" type="text" value="">
+      </div><br>
+      <div>
+        <label for="apellidos">Ingresa tus Apellidos:</label>
+        <input id="apellidos" type="text" value="">
+      </div><br>
+      <div>
+        <label for="dni">Coloca tu DNI:</label>
+        <input id="dni" type="text" value="" size="8" maxlength="8">
+      </div><br>
+      <div>
+        <label for="direccion">Ingresa tu dirección:</label>
+        <input id="direccion" type="text" value="">
+      </div><br>
+      </form>
+      <button type="submit" onclick="datos();"><strong>Enviar Datos</strong></button>
+
+      <div>
+        <ul>
+        <li><strong>Nombre: </strong><label id="nameIs"></label></li>
+        <li><strong>Apellidos: </strong><label id="fullName"></label></li>
+        <li><strong>DNI: </strong><label id="DNI"></label></li>
+        <li><strong>Dirección: </strong><label id="domicilio"></label></li>
+       </ul>
+     </div>
+  <script src="assets/Script/javascript.js"></script>
+</body>
+</html>
